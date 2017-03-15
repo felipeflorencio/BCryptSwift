@@ -1,0 +1,6 @@
+framework module Pods_BCryptSwift_Example {
+  umbrella header "Pods-BCryptSwift_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

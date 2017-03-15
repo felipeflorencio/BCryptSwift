@@ -1,0 +1,22 @@
+{
+  "name": "BCryptSwift",
+  "version": "0.1.0",
+  "summary": "A short description of BCryptSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fatface/BCryptSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fatface": "felipeflorencio@me.com"
+  },
+  "source": {
+    "git": "https://github.com/fatface/BCryptSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BCryptSwift/Classes/**/*"
+}

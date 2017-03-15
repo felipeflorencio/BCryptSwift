@@ -1,0 +1,16 @@
+PODS:
+  - BCryptSwift (0.1.0)
+
+DEPENDENCIES:
+  - BCryptSwift (from `../`)
+
+EXTERNAL SOURCES:
+  BCryptSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BCryptSwift: 20285554b2306e66ba49a85af716d8b5a737f5c7
+
+PODFILE CHECKSUM: 6a6b73b9d4f82135608964ee2f35a637f5b9e792
+
+COCOAPODS: 1.2.0
