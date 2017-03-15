@@ -29,8 +29,6 @@ The `verifyPassword(matchesHash:)` class convenience function will hash the pass
 
 There is an example Xcode project that uses the BCryptSwift functions to calculate salts, hashes, and compare hashes. See the example project for a better understanding on how to use the functions.
 
-## Example
-
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements

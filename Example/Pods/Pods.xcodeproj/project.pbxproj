@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		06AF7601B09350BBD8378B4A1A1729E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		27EF9E25B5FC8BA4F2D76B5996CA609C /* Pods-BCryptSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6950BCBCA264FE57F172F168CB7C1A /* Pods-BCryptSwift_Tests-dummy.m */; };
-		44A73624811E13C38B78BD1CC6DD6A8D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF18981D0A42B7FC7C22C165B7105D25 /* ReplaceMe.swift */; };
+		4B67DA86F01BA5322B66D8CDE455A8DF /* BCryptSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EF9FAF6F3CFE12F9C3B898F77ADBB0 /* BCryptSwift-dummy.m */; };
+		6746A2B66032F0796946FA45AAC3EF6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		9A860DF227B620557E446ADBC2A9623D /* Pods-BCryptSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1328A8C6BDC36D3B8A69248435C5EC86 /* Pods-BCryptSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C2E3AE62500E271B8E23F723E262498 /* Pods-BCryptSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B67B5ABFAEE37F5C7498B159D4FAC9 /* Pods-BCryptSwift_Example-dummy.m */; };
+		A6CF668B81BCDC3B6A875ED2B226045A /* BCryptSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9617075D8A4BAFF9A9326E8B9BAD77C3 /* BCryptSwift.swift */; };
 		AE4CA5479FD7616E6C037CBDC0BC2C60 /* Pods-BCryptSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7FBDEA1E9D15ECE90514CD35B848950 /* Pods-BCryptSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5604905A22E116C97B4DD0CA04CA9C4 /* BCryptSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EF9FAF6F3CFE12F9C3B898F77ADBB0 /* BCryptSwift-dummy.m */; };
-		CA238ADDF508675212FC1BAE82FA0FBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		CF5EF304CDAC7BDA296073CF5BF6EDB6 /* BCryptSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F7F419000C16F224017B3BB2F4391D /* BCryptSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D30CB6B8904807CBC14448A3B7927670 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EA40DAC0B3AB980A9EB283717CF24FAB /* BCryptSwiftRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB31C8C2C2C809B51767035128657A0C /* BCryptSwiftRandom.swift */; };
+		F6BD1D5923A57EDF24DDF50E22CDDAD0 /* BCryptSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F7F419000C16F224017B3BB2F4391D /* BCryptSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 747C597F6079B17C3DB10A7B16186A9B;
+			remoteGlobalIDString = 151C98441B35C90CAC49B68393DAD0ED;
 			remoteInfo = BCryptSwift;
 		};
 /* End PBXContainerItemProxy section */
@@ -50,12 +51,13 @@
 		668B3B5019BFC126CE93DF4F9A3CB31A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		867A8EC5B5685BC6102DACA4FA922B30 /* Pods-BCryptSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BCryptSwift_Example.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9617075D8A4BAFF9A9326E8B9BAD77C3 /* BCryptSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BCryptSwift.swift; sourceTree = "<group>"; };
 		9F320159BC5E9004E40EFFC7AB3C22BF /* Pods-BCryptSwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BCryptSwift_Tests.modulemap"; sourceTree = "<group>"; };
 		A3A14ACD6951F9B4AA881D8A3B59B4CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAE9D4E51D020324B3C6C5CFCCDD093D /* BCryptSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BCryptSwift.modulemap; sourceTree = "<group>"; };
-		AF18981D0A42B7FC7C22C165B7105D25 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		B531A51B6479005A3799C6AE29797500 /* BCryptSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BCryptSwift-prefix.pch"; sourceTree = "<group>"; };
 		B6B010E8D740F19E65553A103D154777 /* Pods-BCryptSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BCryptSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BB31C8C2C2C809B51767035128657A0C /* BCryptSwiftRandom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BCryptSwiftRandom.swift; sourceTree = "<group>"; };
 		C08BF18286CD44DD26F48835D270D9D2 /* Pods-BCryptSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BCryptSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C47887BF49ED0D5B91EA3B4045F0196F /* Pods-BCryptSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BCryptSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -73,11 +75,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB6DF42243949A7619187525E26507DF /* Frameworks */ = {
+		A29A7DF746BC2378EBB23820F54A967A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA238ADDF508675212FC1BAE82FA0FBF /* Foundation.framework in Frameworks */,
+				6746A2B66032F0796946FA45AAC3EF6E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,10 +113,20 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		3DCB7758792AF7CF88D464867617BB01 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9617075D8A4BAFF9A9326E8B9BAD77C3 /* BCryptSwift.swift */,
+				BB31C8C2C2C809B51767035128657A0C /* BCryptSwiftRandom.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		3DF4F8DDEB551F60ABA7EE86D638C07B /* BCryptSwift */ = {
 			isa = PBXGroup;
 			children = (
-				A9A27FD547AB90E0FA4F03AA54544B18 /* BCryptSwift */,
+				A44782AC4F52A17A08C34A0C1A98922C /* BCryptSwift */,
 				B5800AB6C1B77D4AA63A7370A63ED098 /* Support Files */,
 			);
 			name = BCryptSwift;
@@ -157,15 +169,6 @@
 			path = "Target Support Files/Pods-BCryptSwift_Tests";
 			sourceTree = "<group>";
 		};
-		6CCD6F8775038453FA3CB3754E4CAD82 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				AF18981D0A42B7FC7C22C165B7105D25 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,10 +196,10 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A9A27FD547AB90E0FA4F03AA54544B18 /* BCryptSwift */ = {
+		A44782AC4F52A17A08C34A0C1A98922C /* BCryptSwift */ = {
 			isa = PBXGroup;
 			children = (
-				6CCD6F8775038453FA3CB3754E4CAD82 /* Classes */,
+				3DCB7758792AF7CF88D464867617BB01 /* Classes */,
 			);
 			name = BCryptSwift;
 			path = BCryptSwift;
@@ -227,11 +230,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2742728ED8E34F15DE8C0C472A34914A /* Headers */ = {
+		23C650B80D919700EB78F0B12B324E23 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF5EF304CDAC7BDA296073CF5BF6EDB6 /* BCryptSwift-umbrella.h in Headers */,
+				F6BD1D5923A57EDF24DDF50E22CDDAD0 /* BCryptSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +257,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		151C98441B35C90CAC49B68393DAD0ED /* BCryptSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1EA2C15C44E38A4C120481322984BA /* Build configuration list for PBXNativeTarget "BCryptSwift" */;
+			buildPhases = (
+				06B605B538734FC720630CC0EAA8B58E /* Sources */,
+				A29A7DF746BC2378EBB23820F54A967A /* Frameworks */,
+				23C650B80D919700EB78F0B12B324E23 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BCryptSwift;
+			productName = BCryptSwift;
+			productReference = 5104993337271369D088B52A1BC18E23 /* BCryptSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		3460A8C91B167FF78415A1B6767AC9E0 /* Pods-BCryptSwift_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71AD3E5A8E833D3ECABE535FB3F5AA73 /* Build configuration list for PBXNativeTarget "Pods-BCryptSwift_Example" */;
@@ -270,23 +290,6 @@
 			name = "Pods-BCryptSwift_Example";
 			productName = "Pods-BCryptSwift_Example";
 			productReference = 0D79A10D5D98914FDDF43CA7433AA75E /* Pods_BCryptSwift_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		747C597F6079B17C3DB10A7B16186A9B /* BCryptSwift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E0756D3B246433B749856FDACEB085DC /* Build configuration list for PBXNativeTarget "BCryptSwift" */;
-			buildPhases = (
-				3BE353DF0EF6A493FE8FEFAD0D272B4D /* Sources */,
-				EB6DF42243949A7619187525E26507DF /* Frameworks */,
-				2742728ED8E34F15DE8C0C472A34914A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = BCryptSwift;
-			productName = BCryptSwift;
-			productReference = 5104993337271369D088B52A1BC18E23 /* BCryptSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FC9A83AE9A96F663D8AE8C54DEE34F9A /* Pods-BCryptSwift_Tests */ = {
@@ -327,7 +330,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				747C597F6079B17C3DB10A7B16186A9B /* BCryptSwift */,
+				151C98441B35C90CAC49B68393DAD0ED /* BCryptSwift */,
 				3460A8C91B167FF78415A1B6767AC9E0 /* Pods-BCryptSwift_Example */,
 				FC9A83AE9A96F663D8AE8C54DEE34F9A /* Pods-BCryptSwift_Tests */,
 			);
@@ -335,12 +338,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3BE353DF0EF6A493FE8FEFAD0D272B4D /* Sources */ = {
+		06B605B538734FC720630CC0EAA8B58E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5604905A22E116C97B4DD0CA04CA9C4 /* BCryptSwift-dummy.m in Sources */,
-				44A73624811E13C38B78BD1CC6DD6A8D /* ReplaceMe.swift in Sources */,
+				4B67DA86F01BA5322B66D8CDE455A8DF /* BCryptSwift-dummy.m in Sources */,
+				A6CF668B81BCDC3B6A875ED2B226045A /* BCryptSwift.swift in Sources */,
+				EA40DAC0B3AB980A9EB283717CF24FAB /* BCryptSwiftRandom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +370,7 @@
 		174F2D17624235360023AB4128F0D516 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BCryptSwift;
-			target = 747C597F6079B17C3DB10A7B16186A9B /* BCryptSwift */;
+			target = 151C98441B35C90CAC49B68393DAD0ED /* BCryptSwift */;
 			targetProxy = 325F3D1525A1FE5BC4ACB7AF28653918 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -407,39 +411,7 @@
 			};
 			name = Debug;
 		};
-		42E391DDCFABDDAEC8A9EF3857156F2D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53ACA68AA1B5A1FC425E85EA05C993D1 /* BCryptSwift.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BCryptSwift/BCryptSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BCryptSwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BCryptSwift/BCryptSwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = BCryptSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		531B956538ED8BDD4C26F3F2EBC2E38D /* Debug */ = {
+		654FF6AF103AF4305A9D432497D6FA49 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53ACA68AA1B5A1FC425E85EA05C993D1 /* BCryptSwift.xcconfig */;
 			buildSettings = {
@@ -545,6 +517,38 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92C5A4ACE6B997AFBA0AB0B222D52798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53ACA68AA1B5A1FC425E85EA05C993D1 /* BCryptSwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BCryptSwift/BCryptSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BCryptSwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BCryptSwift/BCryptSwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BCryptSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -692,11 +696,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0756D3B246433B749856FDACEB085DC /* Build configuration list for PBXNativeTarget "BCryptSwift" */ = {
+		9F1EA2C15C44E38A4C120481322984BA /* Build configuration list for PBXNativeTarget "BCryptSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				531B956538ED8BDD4C26F3F2EBC2E38D /* Debug */,
-				42E391DDCFABDDAEC8A9EF3857156F2D /* Release */,
+				654FF6AF103AF4305A9D432497D6FA49 /* Debug */,
+				92C5A4ACE6B997AFBA0AB0B222D52798 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
