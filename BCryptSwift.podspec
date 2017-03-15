@@ -35,7 +35,7 @@ The `hashPassword(withSalt:)` class function will hash the password phrase using
 The `verifyPassword(matchesHash:)` class convenience function will hash the password phrase using the hash, then return the comparison between the new hash and the given hash. If there is an issue during processing, nil will be returned. Check the function documentation for details.
                        DESC
 
-  s.homepage         = 'https://felipeflorencio.github.io'
+  s.homepage         = 'https://github.com/felipeflorencio/BCryptSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'Apache 2.0 License', :file => 'LICENSE' }
   s.author           = { 'felipeflorencio' => 'felipeflorencio@me.com' }
