@@ -1,8 +1,12 @@
-# OS X
+# Xcode
+#
 .DS_Store
 
-# Xcode
+## Build generated
 build/
+DerivedData/
+
+## Various settings
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -15,13 +19,26 @@ xcuserdata/
 *.xccheckout
 profile
 *.moved-aside
+*.xcuserstate
+
 DerivedData
 *.hmap
 *.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
 
 # Bundler
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
 .bundle
+.build/
 
+# CocoaPods
 Carthage
 # We recommend against adding the Pods directory to your .gitignore. However
 # you should judge for yourself, the pros and cons are mentioned at:
@@ -31,3 +48,22 @@ Carthage
 # `pod install` in .travis.yml
 #
 # Pods/
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
