@@ -61,8 +61,7 @@ extension String {
     
     internal subscript (r: Range<Int>) -> String {
         let r2 = Range.init(uncheckedBounds: (lower: index(startIndex, offsetBy: r.lowerBound), upper: index(startIndex, offsetBy: r.upperBound)))
-        
-        return substring(with: r2)
+        return String(describing: self[r2.lowerBound..<r2.upperBound])
     }
 }
 
@@ -746,13 +745,13 @@ public class BCryptSwift: NSObject {
         
         j = 0
         for i in 0..<clen {
-            result[j] = Int8(truncatingBitPattern: (cdata[i] >> 24) & 0xff)
+            result[j] = Int8(truncatingIfNeeded: (cdata[i] >> 24) & 0xff)
             j += 1
-            result[j] = Int8(truncatingBitPattern: (cdata[i] >> 16) & 0xff)
+            result[j] = Int8(truncatingIfNeeded: (cdata[i] >> 16) & 0xff)
             j += 1
-            result[j] = Int8(truncatingBitPattern: (cdata[i] >> 8) & 0xff)
+            result[j] = Int8(truncatingIfNeeded: (cdata[i] >> 8) & 0xff)
             j += 1
-            result[j] = Int8(truncatingBitPattern: cdata[i] & 0xff)
+            result[j] = Int8(truncatingIfNeeded: cdata[i] & 0xff)
             j += 1
         }
         

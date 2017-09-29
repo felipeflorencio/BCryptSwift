@@ -33,7 +33,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-Swift 3.0 or higher.
+Swift 4.0 or higher.
 
 ## Installation
 
