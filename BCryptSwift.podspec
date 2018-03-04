@@ -42,6 +42,7 @@ The `verifyPassword(matchesHash:)` class convenience function will hash the pass
   s.social_media_url = 'https://twitter.com/dr_nerd'
 
   s.ios.deployment_target = '9.0'
+  s.tvos.deployment_target = '9.0'
 
   s.source_files = 'BCryptSwift/Classes/**/*'
   
