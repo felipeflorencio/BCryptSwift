@@ -448,7 +448,7 @@ public class BCryptSwift: NSObject {
         var off: Int = 0
         
         // If the salt length is too short, it is invalid
-        if salt.characters.count < 16 {
+        if salt.count < 16 {
             return nil
         }
         
@@ -623,7 +623,7 @@ public class BCryptSwift: NSObject {
      */
     class fileprivate func decode_base64(_ s: String, ofMaxLength maxolen: Int) -> [Int8] {
         var off : Int = 0
-        let slen : Int = s.characters.count
+        let slen : Int = s.count
         var olen : Int = 0
         var result : [Int8] = [Int8](repeating: 0, count: maxolen)
         
