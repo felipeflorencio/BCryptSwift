@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BCryptSwift'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = 'BCryptSwift is an implementation of bcrypt written in Swift.'
 
 # This description is used to generate tags and improve search results.
@@ -45,7 +45,7 @@ The `verifyPassword(matchesHash:)` class convenience function will hash the pass
   s.tvos.deployment_target = '9.0'
 
   s.source_files = 'BCryptSwift/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'BCryptSwift' => ['BCryptSwift/Assets/*.png']
   # }
